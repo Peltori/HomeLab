@@ -5,5 +5,6 @@
 	- My home network setup
 	- My Proxmox type-1 hypervisor setup
 - What I learned during this process
+- Templates for documents to speed up working
 
 ### This is an ongoing project, and I will continue to update it over time.

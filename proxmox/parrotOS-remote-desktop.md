@@ -127,13 +127,13 @@ I chose SPICE as the first implementation because it is simple, directly support
 - Usability with HTB tools
 
 ### Test Results
-| Test | Result | Notes |
-|---|---|---|
-| Proxmox web console | | |
-| SPICE desktop responsiveness | | |
-| Clipboard host -> guest | | |
-| Clipboard guest -> host | | |
-| Overall usability | | |
+| Test                         | Result | Notes |
+| ---------------------------- | ------ | ----- |
+| Proxmox web console          |        |       |
+| SPICE desktop responsiveness |        |       |
+| Clipboard host -> guest      |        |       |
+| Clipboard guest -> host      |        |       |
+| Overall usability            |        |       |
 
 ## 10. Observations
 - Proxmox's built-in console is suitable for administration, but not comfortable for regular desktop use
