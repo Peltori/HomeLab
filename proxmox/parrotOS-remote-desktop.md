@@ -173,6 +173,8 @@ Although SPICE was the first solution tested, it did not provide a complete enou
 - Wayland has practical implications for remote desktop implementation
 - When choosing a solution, the intended use case matters more than finding the technically "best" option
 - Wayland has practical implications for remote desktop implementation
+- Creating and configuring SDN to isolate the VM from my main LAN network
+- Using nftables,  iptables and how to create and configure isolated NAT similar to what VirtualBox or VirtManager provides by default
 - Documentation supports both learning and presenting technical skills
 
 ## 14. Portfolio Value
