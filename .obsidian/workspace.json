@@ -4,37 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "94511546a85da610",
+        "id": "9ae9086350f313fb",
         "type": "tabs",
         "children": [
           {
-            "id": "5741b3d39891aeff",
+            "id": "2ad8856b125f18cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proxmox.md",
+                "file": "proxmox/parrotOS-remote-desktop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proxmox"
-            }
-          }
-        ]
-      },
-      {
-        "id": "ff8047645b076e44",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d2f5feee8c4ef71c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "parrotOS-remote-desktop"
             }
           }
         ]
@@ -110,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Proxmox.md",
+                "file": "proxmox/parrotOS-remote-desktop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Proxmox"
+              "title": "Backlinks for parrotOS-remote-desktop"
             }
           },
           {
@@ -129,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Proxmox.md",
+                "file": "proxmox/parrotOS-remote-desktop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Proxmox"
+              "title": "Outgoing links from parrotOS-remote-desktop"
             }
           },
           {
@@ -172,21 +156,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Proxmox.md",
+                "file": "proxmox/parrotOS-remote-desktop.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Proxmox"
+              "title": "Outline of parrotOS-remote-desktop"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,11 +179,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5741b3d39891aeff",
+  "active": "2ad8856b125f18cc",
   "lastOpenFiles": [
+    "templates/home-network-template.md",
+    "templates/technical-case-template.md",
+    "proxmox/parrotOS-remote-desktop.md",
+    "networking/home-network.md",
+    "networking/images/Kotiverkko_masked.png",
+    "README.md",
     "Untitled.base",
     "Proxmox.md",
     "Welcome.md",
