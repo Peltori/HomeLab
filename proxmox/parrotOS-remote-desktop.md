@@ -12,8 +12,8 @@ I built a ParrotOS 7 virtual machine on top of the Proxmox type-1 hypervisor for
 ## 3. Environment
 
 ### Host
-- Operating system: Fedora 43
-- Window manager / desktop: Hyprland
+- Operating system: Arch Linux / CachyOS
+- Window manager / desktop: KDE
 - Display protocol / display server: Wayland
 
 ### Hypervisor
