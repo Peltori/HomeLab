@@ -1,5 +1,9 @@
 # Homelab documentation
 
+- 🌐 [Home Network Documentation](./networking/home-network.md)
+- 🖥️ [Proxmox Lab Documentation](./proxmox/parrotOS-remote-desktop.md)
+
+
 ### This repository contains documentation about my homelab setup, including:
 - My journey in building a homelab, which currently includes:
 	- My home network setup
