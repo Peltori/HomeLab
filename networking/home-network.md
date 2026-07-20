@@ -25,7 +25,6 @@ VLAN 10 and VLAN 20 uses a /27 subnet mask while VLAN 99 uses a /29 subnet mask.
 ![Home network topology](images/Looginen_Topologia.png)  
 
 ## 4. Core Components  
-  
 ### Router / Firewall  
 - Model: MikroTik
 - Role: Primary router, firewall, gateway and VPN endpoint
@@ -52,12 +51,14 @@ VLAN 10 and VLAN 20 uses a /27 subnet mask while VLAN 99 uses a /29 subnet mask.
 - Notes: Intended for trusted devices, servers, and management-related systems
 ### Guest network:  
 - VLAN ID: 20
-- Purpose: For LAB use and guest devices
-
+- Purpose:
+	- For LAB use and guest devices
+	- Wifi router in AP to serve wireless network
 ### Switch network:
 - VLAN ID: 99
 - Purpose: Used for switches
 - Notes: Only for switches and I can add more devices later if needed
+
 ## 6. Addressing and Services  
 - DHCP: Provided by the MikroTik router on selected VLANs
 - DNS: Pi-hole running on Raspberry Pi, forwarding DNS requests to Cloudflare
@@ -67,6 +68,7 @@ VLAN 10 and VLAN 20 uses a /27 subnet mask while VLAN 99 uses a /29 subnet mask.
 	- Pi-hole
 	- Personal website
 	- WireGuard VPN
+	- My simple python script that monitors website logs for unwanted traffic (Uses discord webhook for notifications)
   
 ## 7. Security Considerations  
 - Firewall rules: Inter-VLAN traffic is restricted by default. Communication between VLAN 10, VLAN 20, and VLAN 99 is only allowed when explicitly required
@@ -75,7 +77,8 @@ VLAN 10 and VLAN 20 uses a /27 subnet mask while VLAN 99 uses a /29 subnet mask.
 - Monitoring / logging:  
 - Risks:
 	- Misconfigured firewall or NAT rules could weaken the intended isolation between VLANs
-	-  Even a minimal public-facing static website introduces some level of risk and must still be taken into account.
+	- Even a minimal public-facing static website introduces some level of risk and must still be taken into account.
+
 ## 8. Current Limitations  
 -  The switch only has 8 ports currently and therefore limits the capability of adding physical devices to the network with RJ-45 cables
 -  No built-in WLAN capability on the MikroTik router currently
@@ -83,6 +86,7 @@ VLAN 10 and VLAN 20 uses a /27 subnet mask while VLAN 99 uses a /29 subnet mask.
 ## 9. Future Improvements  
 -  WLAN capable router
 -  Another switch
+
 ## 10. What I Learned  
 - IP-Networking
 - How to configure VLANs, firewall and NAT
@@ -102,3 +106,10 @@ This documentation demonstrates practical skills in:
   
 ## 12. Summary for Employers  
 This home lab project helped me build practical experience in networking, segmentation, firewall configuration, and infrastructure planning. I designed the network around separate VLANs for management, lab use, and switch management, while also implementing services such as Pi-hole and WireGuard. The project reflects both technical curiosity and a structured approach to learning, testing, and documenting real-world infrastructure.
+
+## 13. Additions
+### Date: 20.7.2026
+- Cleaned up the documentation
+- Added a wifi router to VLAN20 as an AP for different devices. [Reference here](#guest-network)
+- Made simple "IDS" monitoring for my website that uses discord webhook for notifications [Reference here](#6-addressing-and-services)
+- Refactored router and proxmox firewall rules to make them simple and remove reduntant rules
