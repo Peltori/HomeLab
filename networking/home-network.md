@@ -16,8 +16,14 @@ The network currently uses three VLANs, each with their own purpose:
 
 VLAN 10 and VLAN 20 uses a /27 subnet mask while VLAN 99 uses a /29 subnet mask. These subnet sizes were chosen to allow future expansion without requiring a redesign of the network.
 
-### Network Topology
-![Home network topology](images/Kotiverkko_masked.png)
+### Network Topology  
+
+#### Physical Topology  
+![Home network topology](images/Fyysinen_Topologia.png)  
+
+#### Logical Topology  
+![Home network topology](images/Looginen_Topologia.png)  
+
 ## 4. Core Components  
   
 ### Router / Firewall  
